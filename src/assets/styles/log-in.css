@@ -1,0 +1,44 @@
+.log-in-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.log-in {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.log-in-title {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.log-in-form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.warning {
+    margin-top: 25px;
+    color: red;
+}
+
+.submit-btn {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 90px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.remember {
+    margin-left: 80px;
+}
