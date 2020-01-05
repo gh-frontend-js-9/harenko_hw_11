@@ -1,7 +1,11 @@
+:root {
+    font-family: Montserrat, sans-serif;
+    background-color: #2f3242;
+}
+
 .log-in-area {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-around;
     height: 500px;
 }
@@ -14,8 +18,17 @@
 }
 
 .log-in-title {
+    color: #2196f3;
     font-size: 40px;
     font-weight: 900;
+}
+
+.sign-up-link:active {
+    color: #ffffff;
+}
+
+.sign-up-link:visited {
+    color:#6333e9;
 }
 
 .log-in-form {
@@ -26,19 +39,50 @@
     height: 70px;
 }
 
+.log-in-form_email {
+    width: 175px;
+    height: 20px;
+    border: 2px solid #2196f3;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+.log-in-form_pass {
+    margin-top: 10px;
+    width: 175px;
+    height: 20px;
+    border: 2px solid #2196f3;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: transparent;
+}
+
 .warning {
     margin-top: 25px;
     color: red;
 }
 
 .submit-btn {
-    margin-top: 40px;
+    margin-top: 55px;
     margin-bottom: 10px;
-    margin-left: 90px;
-    width: 100px;
+    width: 133px;
+    height: 48px;
+    border-radius: 24px;
+    border: 2px solid #2196f3;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: transparent;
     cursor: pointer;
 }
 
-.remember {
-    margin-left: 80px;
+.remember:active {
+    color:#ffffff;
+}
+
+.remember:visited {
+    color:#6333e9;
 }

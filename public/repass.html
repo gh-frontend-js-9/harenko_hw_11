@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="src/assets/styles/log-in.css">
-    <title>Log in</title>
+    <link rel="stylesheet" href="/src/assets/styles/css/normalize.css">
+    <link rel="stylesheet" href="/src/assets/styles/log-in.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Reset password</title>
 </head>
 <body>
     <div class="log-in-area">
     <div class="log-in">
-    <span class="log-in-title">Log in</span>
-    <a href="">Not a member?</a>
+    <span class="log-in-title">Reset password</span>
+    <a class="sign-up-link" href="sign-up.html" target="_blank">Not a member?</a>
    <form class="log-in-form" action="http://localhost:3000/api/users/login" method="POST" id="form">
-        <input type="email" name="user-email" id="email" placeholder="Email...">
-        <input type="password" name="user-password" id="password" placeholder="Password..."> 
-        <button class="submit-btn" type="submit">Log in</button>
+        <input class="log-in-form_email" type="email" name="user-email" id="email" placeholder="Email...">
+        <button class="submit-btn" type="submit">Reset</button>
     </form>
    <!--  <span class="warning">Oops, looks like your email or password is incorrect.<br>Please try again</span> -->
-    <a class="remember" href="">Forgot password?</a>
     </div>
     </div>
     <script src="./dist/bundle.js"></script>
