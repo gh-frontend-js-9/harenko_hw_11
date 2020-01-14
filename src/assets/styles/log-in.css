@@ -60,13 +60,23 @@
     background-color: transparent;
 }
 
-.warning {
-    margin-top: 25px;
-    color: red;
+.log-warning {
+    margin-bottom: 15px;
+    color: #ff0000;
+}
+
+.sign-warning {
+    margin-top: 35px;
+    color: #ff0000;
+}
+
+.reset-warning {
+    margin-top: -25px;
+    color: #ff0000;
 }
 
 .submit-btn {
-    margin-top: 55px;
+    margin-top: 100px;
     margin-bottom: 10px;
     width: 133px;
     height: 48px;

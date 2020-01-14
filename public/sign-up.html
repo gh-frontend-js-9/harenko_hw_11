@@ -14,15 +14,15 @@
     <div class="log-in">
     <span class="log-in-title">Sign up</span>
     <a class="sign-up-link" href="log-in.html" target="_blank">Existing member?</a>
-   <form class="log-in-form" action="http://localhost:3000/api/users/login" method="POST" id="form">
+   <forma class="log-in-form" id="form">
         <input class="log-in-form_email" type="email" name="user-email" id="email" placeholder="Email...">
         <input class="log-in-form_pass" type="password" name="user-password" id="password" placeholder="Password..."> 
-        <input class="log-in-form_pass" type="password" name="user-password" id="password" placeholder="Confirm password...">
-        <button class="submit-btn" type="submit">Sign up</button>
-    </form>
-   <!--  <span class="warning">Oops, looks like your email or password is incorrect.<br>Please try again</span> -->
+        <input class="log-in-form_pass" type="password" name="user-password" id="confirm" placeholder="Confirm password...">
+        <button class="submit-btn" type="submit" id="submit">Sign up</button>
+    </forma>
+   <span class="sign-warning" id="warning">Your password does not match</span>
     </div>
     </div>
-    <script src="./dist/bundle.js"></script>
+    <script src="/dist/bundle.js"></script>
 </body>
 </html>

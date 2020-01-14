@@ -14,13 +14,13 @@
     <div class="log-in">
     <span class="log-in-title">Reset password</span>
     <a class="sign-up-link" href="sign-up.html" target="_blank">Not a member?</a>
-   <form class="log-in-form" action="http://localhost:3000/api/users/login" method="POST" id="form">
+   <form class="log-in-form" id="form">
         <input class="log-in-form_email" type="email" name="user-email" id="email" placeholder="Email...">
-        <button class="submit-btn" type="submit">Reset</button>
+        <button class="submit-btn" type="submit" id="submit">Reset</button>
     </form>
-   <!--  <span class="warning">Oops, looks like your email or password is incorrect.<br>Please try again</span> -->
+    <span class="reset-warning" id="warning">Your account was not found. Please sign up.</span>
     </div>
     </div>
-    <script src="./dist/bundle.js"></script>
+    <script src="/dist/bundle.js"></script>
 </body>
 </html>
