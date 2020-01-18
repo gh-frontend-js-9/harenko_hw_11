@@ -4,8 +4,7 @@
   "description": "homework 11",
   "main": "main.js",
   "scripts": {
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "server": "cd fake_api; node server"
   },
   "repository": {
     "type": "git",

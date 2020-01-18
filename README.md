@@ -1,7 +1,6 @@
 # harenko_hw_11
 
 Comment:
-Add a warnings.
-Server doesn't work, i don't know why.
+To start server enter "npm run server" in terminal
 
-Status: in progress
+Status: complete
