@@ -4,7 +4,6 @@
   "description": "homework 11",
   "main": "main.js",
   "scripts": {
-    "server": "cd fake_api; node server"
   },
   "repository": {
     "type": "git",

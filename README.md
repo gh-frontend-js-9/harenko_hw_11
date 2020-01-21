@@ -1,6 +1,6 @@
 # harenko_hw_11
 
 Comment:
-To start server enter "npm run server" in terminal
+Link: https://happy-chandrasekhar-528cf3.netlify.com/
 
 Status: complete
