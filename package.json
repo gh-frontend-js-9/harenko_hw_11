@@ -21,6 +21,6 @@
   "homepage": "https://github.com/gh-frontend-js-9/harenko_hw_11#readme",
   "devDependencies": {
     "webpack": "^4.41.4",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.12"
   }
 }
